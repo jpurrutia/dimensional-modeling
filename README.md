@@ -15,6 +15,21 @@ Disclosure data consists of selected information extracted from nonimmigrant and
 
 ### Data Modeling
 
+The data modeling component of this project is focused on a start schema approach with one fact table and four dimension tables.
+
+![Alt text](./img/schema.png)
+
+Fact:
+- Case
+
+Dimension:
+- Employer
+- Agent Attorney
+- Date
+- Employee
+
+
+
 ### ETL
 
 ### Database Connection
